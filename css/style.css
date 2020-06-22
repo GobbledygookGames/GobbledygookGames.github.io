@@ -46,6 +46,23 @@ body {
   content: "";
 }
 
+.object-fit_scale-down { 
+  object-fit: scale-down
+}
+
+img[class] { 
+  width: 100%;
+}
+
+.original-image {
+  margin-bottom: 50px;
+}
+
+.image {
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
 a {
   color: #5e87ff;
   -webkit-transition: 0.5s;
